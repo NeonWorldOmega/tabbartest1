@@ -16,6 +16,15 @@
 		3560505B2A5B85CE00306228 /* tabbartest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560505A2A5B85CE00306228 /* tabbartest1Tests.swift */; };
 		356050652A5B85CE00306228 /* tabbartest1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356050642A5B85CE00306228 /* tabbartest1UITests.swift */; };
 		356050672A5B85CE00306228 /* tabbartest1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356050662A5B85CE00306228 /* tabbartest1UITestsLaunchTests.swift */; };
+		356050742A5B8C7200306228 /* LordeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356050732A5B8C7200306228 /* LordeView.swift */; };
+		356050762A5B8C9100306228 /* BillieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356050752A5B8C9100306228 /* BillieView.swift */; };
+		356050782A5B8CAE00306228 /* U2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356050772A5B8CAE00306228 /* U2View.swift */; };
+		3560507A2A621E5700306228 /* SavedCashItemForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356050792A621E5700306228 /* SavedCashItemForm.swift */; };
+		3560507C2A6228A400306228 /* DebtItemForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560507B2A6228A400306228 /* DebtItemForm.swift */; };
+		3560507E2A67852100306228 /* SavedItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560507D2A67852100306228 /* SavedItemDetail.swift */; };
+		356050802A6B630000306228 /* SavedTowardsDebtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3560507F2A6B630000306228 /* SavedTowardsDebtView.swift */; };
+		356050822A7B6B0300306228 /* DebtDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356050812A7B6B0200306228 /* DebtDetailView.swift */; };
+		356050842A7DD08600306228 /* SavedPutTowardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356050832A7DD08600306228 /* SavedPutTowardsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,15 @@
 		356050602A5B85CE00306228 /* tabbartest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tabbartest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		356050642A5B85CE00306228 /* tabbartest1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbartest1UITests.swift; sourceTree = "<group>"; };
 		356050662A5B85CE00306228 /* tabbartest1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbartest1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		356050732A5B8C7200306228 /* LordeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LordeView.swift; sourceTree = "<group>"; };
+		356050752A5B8C9100306228 /* BillieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillieView.swift; sourceTree = "<group>"; };
+		356050772A5B8CAE00306228 /* U2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U2View.swift; sourceTree = "<group>"; };
+		356050792A621E5700306228 /* SavedCashItemForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCashItemForm.swift; sourceTree = "<group>"; };
+		3560507B2A6228A400306228 /* DebtItemForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtItemForm.swift; sourceTree = "<group>"; };
+		3560507D2A67852100306228 /* SavedItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedItemDetail.swift; sourceTree = "<group>"; };
+		3560507F2A6B630000306228 /* SavedTowardsDebtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTowardsDebtView.swift; sourceTree = "<group>"; };
+		356050812A7B6B0200306228 /* DebtDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtDetailView.swift; sourceTree = "<group>"; };
+		356050832A7DD08600306228 /* SavedPutTowardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPutTowardsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +118,17 @@
 			children = (
 				356050442A5B85CD00306228 /* tabbartest1App.swift */,
 				356050462A5B85CD00306228 /* ContentView.swift */,
+				356050732A5B8C7200306228 /* LordeView.swift */,
+				356050752A5B8C9100306228 /* BillieView.swift */,
+				356050772A5B8CAE00306228 /* U2View.swift */,
 				356050482A5B85CE00306228 /* Assets.xcassets */,
 				3560504D2A5B85CE00306228 /* Persistence.swift */,
+				356050792A621E5700306228 /* SavedCashItemForm.swift */,
+				3560507D2A67852100306228 /* SavedItemDetail.swift */,
+				3560507F2A6B630000306228 /* SavedTowardsDebtView.swift */,
+				356050812A7B6B0200306228 /* DebtDetailView.swift */,
+				356050832A7DD08600306228 /* SavedPutTowardsListView.swift */,
+				3560507B2A6228A400306228 /* DebtItemForm.swift */,
 				3560504F2A5B85CE00306228 /* tabbartest1.xcdatamodeld */,
 				3560504A2A5B85CE00306228 /* Preview Content */,
 			);
@@ -264,9 +291,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				3560504E2A5B85CE00306228 /* Persistence.swift in Sources */,
+				3560507E2A67852100306228 /* SavedItemDetail.swift in Sources */,
+				356050742A5B8C7200306228 /* LordeView.swift in Sources */,
+				356050782A5B8CAE00306228 /* U2View.swift in Sources */,
+				356050822A7B6B0300306228 /* DebtDetailView.swift in Sources */,
+				356050802A6B630000306228 /* SavedTowardsDebtView.swift in Sources */,
+				356050842A7DD08600306228 /* SavedPutTowardsListView.swift in Sources */,
 				356050512A5B85CE00306228 /* tabbartest1.xcdatamodeld in Sources */,
+				356050762A5B8C9100306228 /* BillieView.swift in Sources */,
 				356050472A5B85CD00306228 /* ContentView.swift in Sources */,
+				3560507C2A6228A400306228 /* DebtItemForm.swift in Sources */,
 				356050452A5B85CD00306228 /* tabbartest1App.swift in Sources */,
+				3560507A2A621E5700306228 /* SavedCashItemForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
