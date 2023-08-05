@@ -29,6 +29,8 @@ struct SavedTowardsDebtView: View {
             debtitem.amount = debtitem.amount?.subtracting(saveditem.amount ?? NSDecimalNumber(value: 0.0))
             saveditem.used = true
             saveditem.puttowards = debtitem.id
+            NSLog("DEBT ID = " + String(debtitem.id?.uuidString ?? "NOUUID"))
+            NSLog("SAVED ID = " + String(saveditem.puttowards?.uuidString ?? "NOUUID"))
             try? viewContext.save()
         } label: {
             Text("do it")
