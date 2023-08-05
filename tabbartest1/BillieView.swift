@@ -20,7 +20,7 @@ struct BillieView: View {
             List{
                 ForEach(items){debtitem in
                     NavigationLink{
-                        Text(debtitem.name ?? "UNK")
+                        DebtDetailView(debtitem:debtitem)
                     }label:{
                         VStack(alignment:.leading){
                             Text(debtitem.name ?? "UNKN")
